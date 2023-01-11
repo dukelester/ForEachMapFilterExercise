@@ -84,6 +84,9 @@ function vowelCount(str) {
       if (vowels.indexOf(lowerCasedLetter) !== -1) {
         if (obj[lowerCasedLetter]) {
           obj[lowerCasedLetter]++;
+            // obj[lowerCasedLetter] += 1; // find this out
+            // obj[lowerCasedLetter]--
+            // obj[lowerCasedLetter] -= 1
         } else {
           obj[lowerCasedLetter] = 1;
         }
